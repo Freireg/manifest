@@ -5,8 +5,8 @@
 
   <default sync-j="4"/>
 
-  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="24772dd2ae6c0cd11540a260f15065f906fb0997" upstream="master"/>
-  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="b22026cd3785700052aefa90e709b92d8e7f74fc" upstream="master"/>
-  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="18926b88f44e870e64efa7b3cd7e1dc56ce6cbb0" upstream="master"/>
-  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="8a324aa2111872138715bde7fbc86bcfc2d8b20e" upstream="master"/>
+  <project name="bitbake.git" path="layers/openembedded-core/bitbake" remote="oe" revision="f0df79b6b56f6a69067adf974978d9405077f246" upstream="2.18"/>
+  <project name="meta-openembedded.git" path="layers/meta-openembedded" remote="oe" revision="47d7dbdd10890bbd429bc0cccbe14435c37e5af1" upstream="wrynose"/>
+  <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="ddeeba423ff0565b8f1192f16072b5993d5ea6a0" upstream="wrynose"/>
+  <project name="openembedded-core.git" path="layers/openembedded-core" remote="oe" revision="883075157987ca300af59185b903d6d1977234c3" upstream="wrynose"/>
 </manifest>

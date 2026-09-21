@@ -5,6 +5,12 @@ tool manifests used to check out Torizon OS: the set of Yocto layers, their
 git remotes, and the revisions to build each supported vendor/SoC platform
 from.
 
+> [!WARNING]
+> The manifests on this branch are for development only. Do not use them in
+> production or for products until Torizon OS 8 is officially released. Their
+> pinned revisions are not validated yet and Torizon OS may not build with
+> them.
+
 ## Supported vendors
 
 Each vendor lives in its own folder under `torizon/`:
